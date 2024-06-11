@@ -18,7 +18,7 @@ Instructions for Using the Code
 Setup Instructions
 
 Clone the GitHub repository to your local machine:
-git clone https://github.com/username/project-repo.git
+git clone https://github.com/RiyazChoorikhan/Predicting_Bank_Term_Deposit_Subscriptions/blob/main/Term_Dep_Subcribers_v1_20240609.py)
 cd project-repo
 Create a virtual environment and install dependencies:
 
