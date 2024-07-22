@@ -8,8 +8,8 @@ Banking Marketing Dataset from Kaggle
 Origin: The dataset is publicly available on Kaggle and was collected from telephonic marketing campaigns conducted by a Portuguese banking institution between May 2008 and November 2010.
 Description: The dataset contains detailed information on the bank's marketing campaigns, including client demographics, previous interactions, and campaign-specific details.
 Files:
-train.csv: 45,211 rows and 18 columns
-test.csv: 4,521 rows and 18 columns
+train.csv: 45,211 rows and 17 columns
+test.csv: 4,521 rows and 17 columns
 User-Provided Dataset
 
 Description: This dataset contains similar information as the Kaggle dataset and is used to supplement the analysis.
@@ -39,9 +39,10 @@ python scripts/evaluate_model.py
 Contact Information
 For questions or support, please contact the project maintainer:
 
-Name: [Your Name]
-Email: [your.email@example.com]
-GitHub: https://github.com/username
+Name: Riyaz Choorikhan
+Email: rc23abl@herts.ac.uk
+
+
 Data Structure and Purpose
 age: Client's age (numeric)
 job: Type of job (categorical: "admin.","management","blue-collar","technician","services", etc.)
@@ -60,6 +61,8 @@ pdays: Days since the client was last contacted from a previous campaign (numeri
 previous: Number of contacts before this campaign (numeric)
 poutcome: Outcome of the previous marketing campaign (categorical: "unknown","other","failure","success")
 y: Has the client subscribed a term deposit? (binary: "yes","no")
+
+
 Usage and Preprocessing Steps
 Loading the Data
 
